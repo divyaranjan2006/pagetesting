@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    /* border: 2px solid red; */
+    height: 140px;
+    display: flex;
+   background-color: rgb(95, 75, 23);
+.logo{
+    /* border: 2px solid green; */
+    /* display: flex; */
+
+}
+.logo-image{
+/* border:  2px solid black; */
+height: 300px;
+position: absolute; 
+width: 70px;
+}
+.logo-text{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 50px;
+    color: antiquewhite;
+  
+    /* bottom: 2px; */
+  margin-left: 135px;
+    display: flex;
+}
+.search-bar{
+    /* border: 2px solid rgb(151, 117, 23); */
+    margin-left: 100px;
+    height: 50px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    top: 50px;
+}
+.search-box{
+    /* border: 2px solid green; */
+    width: 410px;
+    height: 36px;
+    top: 80px;
+}
+.search-box input{
+    /* border: 2px solid purple; */
+    height: 36px;
+    width: 396px;
+    top: 50px;
+    
+}
+.search-btn{
+    /* border: 2px solid blue; */
+    width: 100px;
+    height: `100px;
+    text-align: center;
+    background-color: rgb(150, 130, 19);
+    
+}
+.search-btn a{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    color: antiquewhite;
+}
+
+.menu{
+    /* border: 2px solid blueviolet; */
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    color: antiquewhite;
+
+}
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    margin: 19px;
+    list-style-type: none;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+   color: antiquewhite;
+        font-size: 30px;
+        
+
+}
